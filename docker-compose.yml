@@ -7,7 +7,7 @@ services:
     ports:
       - '6006:3000'
     environment:
-      - MONGODB_URI:'mongodb://localhost:27017/transactionhistory'
+      - MONGODB_URI:'mongodb://mongodb:27017/transactionhistory'
     depends_on:
       - mongodb
 
